@@ -2,7 +2,7 @@
   <div class="container">
 
     <div class="line"></div>
-    <el-menu
+    <!-- <el-menu
       :default-active="activeIndex2"
       class="el-menu-demo"
       mode="horizontal"
@@ -15,7 +15,7 @@
       <el-menu-item index="2" @click="$router.push('/about')">About</el-menu-item>
       <el-menu-item index="3" @click="$router.push('/seo')">Seo</el-menu-item>
       <el-menu-item index="4" @click="$router.push('/info')">Info</el-menu-item>
-    </el-menu>
+    </el-menu> -->
     <Nuxt />
   </div>
 </template>

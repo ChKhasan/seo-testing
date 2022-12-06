@@ -2,6 +2,8 @@
   <!-- <Tutorial/> -->
   <div>
     <h1>Welcome to my site !!</h1>
+    <p>
+    {{'werwerew'}}</p>
   </div>
 </template>
 
@@ -16,7 +18,6 @@ export default {
     };
   },
   mounted() {
-console.log(window.location.host + this.$route.path);
 },
   head() {
     return {

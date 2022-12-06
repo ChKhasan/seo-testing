@@ -1,11 +1,11 @@
 <template lang="html">
   <div>
     <h1>Android uchun Telegram</h1>
-    <!-- <p>
+    <p>
       Bu yerda Android qurilmangiz uchun Telegramni yuklab olishingiz mumkin. Bu
       versiya kamroq cheklovlarga ega va bevosita telegram.org saytidan
       avtomatik yangilanishlarni qabul qiladi
-    </p> -->
+    </p>
   </div>
 </template>
 <script>
