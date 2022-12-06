@@ -36,7 +36,6 @@ export default {
     UserAgent: "Googlebot",
     Disallow: "/seo",
   },
-baseUrl: "localhost",
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 };
