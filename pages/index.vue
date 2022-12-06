@@ -36,7 +36,7 @@ console.log(window.location.host + this.$route.path);
         {
           hid: "og:url",
           name: "og:url",
-          content: `${window.location.host}${this.$route.path}`,
+          // content: `${window.location.host}${this.$route.path}`,
         },
         { hid: "og:type", name: "og:type", content: "shopping" },
         {

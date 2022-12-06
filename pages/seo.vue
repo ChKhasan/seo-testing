@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <p>
+    <!-- <p>
       Meta tags are snippets of code that tell search engines important
       information about your web page, such as how they should display it in
       search results. They also tell web browsers how to display it to visitors.
@@ -9,7 +9,7 @@
       important meta tags for SEO: Meta title Meta description Meta robots Meta
       refresh redirect Meta charset Meta viewport Meta title This is the page
       title that Google and most other search engines show in search results.
-    </p>
+    </p> -->
   </div>
 </template>
 <script>
@@ -22,7 +22,6 @@ export default {
     };
   },
   mounted() {
-console.log(window.location.host + this.$route.path);
 },
   head() {
     return {
@@ -39,11 +38,7 @@ console.log(window.location.host + this.$route.path);
           name: "og:description",
           content: this.description,
         },
-        {
-          hid: "og:url",
-          name: "og:url",
-          content: `${window.location.host}${this.$route.path}`,
-        },
+     
         { hid: "og:type", name: "og:type", content: "shopping" },
         {
           hid: "og:keywords",

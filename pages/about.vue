@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <p>
+    <!-- <p>
       Nuxt gives you 3 different ways to add meta data to your application:
       Globally using the nuxt.config.js Locally using the head as an object
       Locally using the head as a function so that you have access to data and
@@ -24,7 +24,7 @@
       globally to the nuxt.config.js or locally in the head object or function.
       You can also pass each resource an optional body: true to include the
       resource before the closingtag. Global Settings nuxt.config.js
-    </p>
+    </p> -->
   </div>
 </template>
 <script>
@@ -37,7 +37,6 @@ export default {
     };
   },
 mounted() {
-console.log(window.location.host + this.$route.path);
 },
   head() {
     return {
@@ -58,7 +57,6 @@ console.log(window.location.host + this.$route.path);
         {
           hid: "og:url",
           name: "og:url",
-          content: `${window.location.host}${this.$route.path}`,
         },
         { hid: "og:type", name: "og:type", content: "shopping" },
         {
